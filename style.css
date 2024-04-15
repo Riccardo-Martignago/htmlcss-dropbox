@@ -18,3 +18,15 @@ nav{
 li{
     margin: 0 1rem;
 }
+.back-cyan{
+    background-color: cyan;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+img{
+    max-width: 300px;
+}
