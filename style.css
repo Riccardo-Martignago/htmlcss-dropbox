@@ -9,6 +9,9 @@
 .flex{
     display: flex;
 }
+.container{
+    padding: 0 10%;
+}
 .column{
     flex-direction: column;
 }
@@ -30,6 +33,9 @@ ul{
 .absolute{
     position: absolute;
 }
+.t-jumbo{
+    text-align: center;
+}
 img{
     max-width: 300px;
 }
@@ -37,4 +43,7 @@ img{
     width: 45px;
     border-top-style: solid;
     border-top-width: 1px;
+}
+.piano{
+    padding: 5%;
 }
