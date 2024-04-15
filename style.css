@@ -45,5 +45,6 @@ img{
     border-top-width: 1px;
 }
 .piano{
-    padding: 5%;
+    padding: 5% 0;
+    width: calc(50% - 30%);
 }
