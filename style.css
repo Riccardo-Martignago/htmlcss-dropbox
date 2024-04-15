@@ -9,13 +9,16 @@
 .flex{
     display: flex;
 }
+.column{
+    flex-direction: column;
+}
 ul{
     list-style-type: none;
 }
-nav{
+.nav-bar{
     padding: 1.5rem;
 }
-li{
+.nav-bar ul li{
     margin: 0 1rem;
 }
 .back-cyan{
@@ -29,4 +32,9 @@ li{
 }
 img{
     max-width: 300px;
+}
+.bar{
+    width: 45px;
+    border-top-style: solid;
+    border-top-width: 1px;
 }
