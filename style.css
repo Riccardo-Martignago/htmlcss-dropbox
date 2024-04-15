@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.space-b{
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    padding: 1.5rem;
+}
+li{
+    margin: 0 1rem;
+}
