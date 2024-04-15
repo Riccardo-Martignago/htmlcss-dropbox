@@ -10,7 +10,8 @@
     display: flex;
 }
 .container{
-    padding: 0 10%;
+    max-width: 1200px;
+    margin: auto;
 }
 .column{
     flex-direction: column;
@@ -45,6 +46,8 @@ img{
     border-top-width: 1px;
 }
 .piano{
-    padding: 5% 0;
-    width: calc(50% - 30%);
+    padding: 2rem;
+}
+.gap{
+    gap: 10px;
 }
