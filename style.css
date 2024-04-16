@@ -9,8 +9,12 @@
 .flex{
     display: flex;
 }
-.container{
+.jumbo-cont{
     max-width: 1200px;
+    margin: auto;
+}
+.container{
+    max-width: 1000px;
     margin: auto;
 }
 .column{
@@ -34,9 +38,6 @@ ul{
 .absolute{
     position: absolute;
 }
-.t-jumbo{
-    text-align: center;
-}
 img{
     max-width: 300px;
 }
@@ -50,4 +51,8 @@ img{
 }
 .gap{
     gap: 10px;
+}
+.center{
+    justify-content: center;
+    align-items: center;
 }
