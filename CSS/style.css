@@ -30,7 +30,9 @@ ul{
     padding: 1.5rem 0;
 }
 .nav-bar ul li{
-    margin:0 1rem;
+    padding:0 1rem;
+    display: flex;
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -38,6 +40,9 @@ a{
 }
 button.butt-blue{
     background-color: #0061ff;
+    border: none;
+    padding: .5rem 1rem;
+    color: white;
 }
 .back-cyan{
     background-color: #b4d0e7;
