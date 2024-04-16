@@ -81,3 +81,7 @@ img{
 .wrap{
     flex-wrap: wrap;
 }
+ul.quest li{
+    display: flex;
+    justify-content: space-between;
+}
