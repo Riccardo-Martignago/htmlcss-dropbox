@@ -196,6 +196,13 @@ div.lista-c ul li{
 .box-center article img{
     max-width: 220px;
 }
+.azienda > h2{
+    width: 30%;
+    padding: 5rem 0;
+}
+.azienda{
+    width: 100%;
+}
 .bar{
     color: #dcdcde;
     width: 45px;
@@ -230,10 +237,14 @@ ul.quest li{
     display: flex;
     justify-content: space-between;
 }
-.azienda > h2{
-    width: 30%;
+.box-quest{
     padding: 5rem 0;
 }
-.azienda{
-    width: 100%;
+.box-quest > h2{
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #dcdcde;
+}
+.box-quest ul li{
+    padding: 2rem 0;
+    border-bottom: 2px solid #dcdcde;
 }
