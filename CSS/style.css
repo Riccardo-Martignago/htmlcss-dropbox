@@ -176,6 +176,24 @@ div.lista-c ul li{
 }
 .operation-second ~ h2{
     padding-top: 3rem;
+    max-width: 50%;
+}
+.box{
+    background-color: #A2D39B;
+    width: 240px;
+    height: 240px;
+}
+.box img{
+    max-width: 140px;
+}
+.box-center{
+    padding: 2rem 3rem;
+}
+.box-center article > *{
+    padding-bottom: 2rem;
+}
+.box-center article img{
+    max-width: 220px;
 }
 .bar{
     color: #dcdcde;
@@ -201,16 +219,8 @@ footer nav{
     max-width: 1200px;
     margin: auto;
 }
-.prova{
-    background-color: #A2D39B;
-    width: 225px;
-    height: 225px;
-}
 img{
     object-fit: contain;
-}
-.box div img{
-    max-width: 60px;
 }
 .wrap{
     flex-wrap: wrap;
