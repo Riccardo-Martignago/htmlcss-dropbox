@@ -6,7 +6,8 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
-.jumbo-cont{
+.jumbo-cont, 
+.azienda{
     max-width: 1100px;
     margin: auto;
 }
@@ -228,4 +229,11 @@ img{
 ul.quest li{
     display: flex;
     justify-content: space-between;
+}
+.azienda > h2{
+    width: 30%;
+    padding: 5rem 0;
+}
+.azienda{
+    width: 100%;
 }
