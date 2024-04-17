@@ -7,12 +7,13 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 .jumbo-cont{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
+    padding: 8rem 0;
 }
 .flex{
     display: flex;
@@ -40,7 +41,7 @@ ul{
     display: flex;
     align-items: center;
 }
-a{
+li a{
     text-decoration: none;
     color: black;
 }
@@ -71,19 +72,89 @@ div.arrow::before{
     content: "\01F873";
     font-size: 47px;
 }
-img{
+.user::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f007";
+}
+.group::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\e533";
+}
+.folder::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f07b";
+}
+.share::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f1e0";
+}
+.building::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f1ad";
+}
+.check::before{
+    content: "\2713";
+    color: #0061ff;
+    font-weight: 700;
+}
+.relative img{
     max-width: 724px;
 }
+.container > h2{
+    font-size: 33px;
+    padding-bottom: 3rem;
+}
+label{
+    padding-right: 2rem;
+}
+.r-fatturazione{
+    padding-bottom: 3rem;
+}
+.piano{
+    padding-bottom: 3rem;
+}
+section.piano article {
+    border: 2px solid #dcdcde;
+}
+section.piano article > p{
+    text-align: center;
+    border-bottom: 2px solid #dcdcde;
+    padding: .5rem 0;
+}
+.lista{
+    padding: 2rem 1rem;
+}
+div.lista > *{
+    padding-bottom: 2rem;
+}
+.bold{
+    font-weight: 700;
+}
+.light{
+    font-weight: 200;
+}
+li h3{
+    padding: 1rem 0;
+}
+div.lista ul li{
+    padding-bottom: 1rem;
+}
+img{
+    max-width: 300px;
+}
 .bar{
+    color: #dcdcde;
     width: 45px;
     border-top-style: solid;
     border-top-width: 1px;
 }
-.piano{
-    padding: 2rem;
-}
 .gap{
-    gap: 10px;
+    gap: 40px;
 }
 .center{
     justify-content: center;
