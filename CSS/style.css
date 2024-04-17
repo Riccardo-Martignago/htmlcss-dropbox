@@ -118,18 +118,20 @@ label{
 .piano{
     padding-bottom: 3rem;
 }
-section.piano article {
+section.piano article, 
+.team-section{
     border: 2px solid #dcdcde;
 }
-section.piano article > p{
+section.piano article > p, 
+.team-section > p{
     text-align: center;
     border-bottom: 2px solid #dcdcde;
     padding: .5rem 0;
 }
-.lista{
+.lista-c, .lista-b{
     padding: 2rem 1rem;
 }
-div.lista > *{
+div.lista-c> *{
     padding-bottom: 2rem;
 }
 .bold{
@@ -141,10 +143,26 @@ div.lista > *{
 li h3{
     padding: 1rem 0;
 }
-div.lista ul li{
+div.lista-c ul li{
     padding-bottom: 1rem;
 }
-img{
+.lista-b section > *{
+    padding-bottom: 2rem;
+}
+.partner{
+    padding: 8rem 0;
+}
+.partner img{
+    width: 610px;
+}
+.partner article{
+    padding: 4rem 2rem
+}
+.partner article > *{
+    padding-bottom: 2rem;
+}
+.operation-first article img, 
+.operation-second article img{
     max-width: 300px;
 }
 .bar{
