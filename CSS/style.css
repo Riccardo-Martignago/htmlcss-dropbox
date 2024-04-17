@@ -103,6 +103,11 @@ div.arrow::before{
     color: #0061ff;
     font-weight: 700;
 }
+.earth::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f57d";
+    font-weight: 700;
+}
 .relative img{
     max-width: 724px;
 }
@@ -172,12 +177,8 @@ div.lista-c ul li{
     padding-bottom: 3rem;
 }
 .operation-second article > *,
-.operation-firse article > *{
+.operation-first article > *{
     padding-bottom: 2rem;
-}
-.operation-second ~ h2{
-    padding-top: 3rem;
-    max-width: 50%;
 }
 .box{
     background-color: #A2D39B;
@@ -221,11 +222,18 @@ footer{
     color: white;
 }
 footer nav{
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 .foot{
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 2rem;
+}
+.foot nav ul li{
+    padding-bottom: 1rem;
+}
+.foot nav ul li h2{
+    padding-bottom: 1rem;
 }
 img{
     object-fit: contain;
@@ -247,4 +255,8 @@ ul.quest li{
 .box-quest ul li{
     padding: 2rem 0;
     border-bottom: 2px solid #dcdcde;
+}
+.foot .bar{
+    padding-bottom: 2rem;
+    width: 95px;
 }
