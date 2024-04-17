@@ -165,7 +165,18 @@ div.lista-c ul li{
 .operation-second article img{
     max-width: 300px;
 }
-
+.operation-first,
+.operation-second{
+    gap: 50px;
+    padding-bottom: 3rem;
+}
+.operation-second article > *,
+.operation-firse article > *{
+    padding-bottom: 2rem;
+}
+.operation-second ~ h2{
+    padding-top: 3rem;
+}
 .bar{
     color: #dcdcde;
     width: 45px;
